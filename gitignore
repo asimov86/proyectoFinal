@@ -1,0 +1,6 @@
+# Dentro de Gitignore armo una lista de objetos a ignorar
+
+# Ignora archivos
+package.json
+#Ignora carpetas
+
