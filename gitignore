@@ -3,4 +3,4 @@
 # Ignora archivos
 package.json
 #Ignora carpetas
-
+node_modules
