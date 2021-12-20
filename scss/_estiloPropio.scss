@@ -1,0 +1,175 @@
+/**************** E s t i l o   p r o p i o ********************/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+nav{
+    position: relative;
+}
+
+.divOculto{
+  display: none;
+}
+
+section{
+  margin-top: 80px;
+  color: #2c2c2b;
+}
+
+
+
+#contactar {
+    background-image: url("../images/contacto_3.png");
+    background-repeat: repeat;
+  }
+
+  .botones{
+    text-align: center;
+  }
+
+.publicidad{
+  text-align: center;
+}
+
+
+section .subtituloVistozo{
+  width: 100%; 
+  background-color: #f39c1c;
+  color: white;
+}
+
+section .subtituloVistozoArriba .letrasBlancas{
+  color: white;
+}
+
+section .subtituloVistozoArriba{
+  background-color: #f39c1c; 
+  height: 76px; 
+  margin: auto;
+}
+
+section .subtituloVistozoArriba .img{
+  width: 6px; 
+  height: 66px; 
+}
+
+
+.subtitulo img{
+  width: 66px; 
+  height: 66px; 
+  border: 1px solid black;
+}
+
+.subtitulo .h5{
+  display: none;
+}
+
+
+/* Agregarle bloque a .col ya que el es un elemento*/
+  .col{
+    display: flex;
+    justify-content: center !important;
+}
+
+  .col .card{
+    width: 18rem;
+  }
+
+
+
+  /*botón*/
+  .bg-propio{
+      background-color: #f39c1c;
+      transition: 0.5s;
+      color: black;
+
+  }
+
+  .bg-propio:hover{
+      background-color: #efbd71;
+  }
+
+  .logo{
+    width: 45px; 
+    height: 45px;
+  }
+
+  /*  /////////////////////////////////// */
+
+  .footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #302116;
+    margin-top: 40px;
+    min-height: 100px;
+  }
+  
+  .footer .contenido{
+    color: white;
+  }
+
+  /* Agrego transformación */
+  footer .redesSociales img:hover{
+    transform: scale(1.2);
+  }
+  
+  footer #eslogan .animaTexto{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  footer #redes .seguinos{
+    margin-left: 160px;
+    font-size: 14px;
+  }
+  
+  footer .copyright p{
+    font-size: 10px;
+  }
+
+  footer #redes{
+    margin-top: 20px;
+
+  }
+  
+  footer #redes .card-title{
+    margin-right: 160px;
+    margin-top: 20px;
+
+  }
+  
+  footer #redes .redesSociales #red{
+    width: 26px;
+    height: 26px;
+    margin-bottom: 20px;
+  }
+
+/* Animación */
+.animaTexto{
+  animation-name: efecto;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  font-size: 12px;
+}
+
+@keyframes efecto{
+  from{
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translateX(0px);
+  }
+  
+}
